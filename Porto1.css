@@ -1,0 +1,131 @@
+CSS -- CSS -- CSS -- CSS
+.header {
+    border-bottom: 1px solid black;
+    background-color: white;
+    width: auto;
+    height: 70px;
+    z-index: 100;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -7px;
+    /* filter: drop-shadow(0px 0px 5px black); */
+    /* margin-right: -4px; */
+    /* margin-right: 0px; */
+}
+
+.bgimage {
+    z-index: -1;
+    position: absolute;
+    margin-left: -50px;
+    padding-right: 10px;
+    height:  480px;
+    opacity: 0.8;
+    width: 1270px;
+}
+.img1 {
+    z-index: 91;
+    position: relative;
+    margin-left: 20px; 
+    margin-top: -80px;
+    width: 180px;
+    height: 100px;
+}
+.main {
+    /* background-image: url("bgweb.jpeg"); */
+    /* border: 1px solid blue; */
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+
+.intro {
+    z-index: 100;
+    /* border: px solid black; */
+    width: 700px;
+    height: 330px;
+    margin-left:250px;
+    margin-top: 40px;
+    border-radius:100px 0px 100px 0px ;
+     box-shadow: 0px 0px 20px rgb(0, 0, 0);
+     position: relative;
+    background-color: white;
+}
+
+/* .circle1{
+    margin-left: -40px;
+    margin-top: 160px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(181, 181, 181);
+    position: absolute;
+    border-radius:  130px 170px 100px 200px;
+    opacity: 0.3; */
+/* } */
+ 
+/* .circle2{
+    margin-left: 950px;
+    margin-top: -25px;
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(0, 255, 94); */
+    /* position: absolute;
+    border-radius: 170px 230px 100px 200px;
+    opacity: 0.3; */
+/* }  */
+ 
+
+.introduction {
+    margin-left: 380px;
+    margin-top: -270px;
+    font-family: monospace;
+
+}
+
+.explore {
+    margin-top: 20px;
+    margin-left: 350px;
+    float: left;
+    background-color: #FBDA61;
+background-image: linear-gradient(180deg, #FBDA61 0%, #FF5ACD 100%);
+
+    padding: 10px;
+    border-radius: 50px ;
+    font-family: monospace;
+}
+
+.quiz {
+    margin-top: -38px;
+    margin-left: 500px;
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    padding: 10px;
+    float: left;
+    border-radius: 50px;
+    font-family: monospace;
+
+}
+a:link, a:visited{
+    transition:  1s;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    padding: 5px;
+}
+a:hover {
+    font-weight: bold;
+    
+}
+
+.hello {
+    text-align: center;
+    width: 300px;
+    margin-left: 328px;
+    font-size: 13px;
+}
+.img2 {
+    width: 300px;
+    margin-top: 30px;
+}
